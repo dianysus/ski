@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>2. 정적 자원 활용</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/main.css}" />
+<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</head>
+
+<body>
+  <nav>
+    <img id="logo" alt="logo" th:src="@{/image/2012-06-24_00-39-45_132.jpg}" />
+  </nav>
+
+  <div id="container">
+    <div>
+      <ul id="mainList">
+      </ul>
+    </div>
+    <div id="inputLayer">
+    </div>
+  </div>
+</body>
+</html>

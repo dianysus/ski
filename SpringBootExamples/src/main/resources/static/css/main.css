@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+nav {
+  height: 60px;
+  background-color: #DDDDDD;
+  padding: 3px;
+  color: #000000;
+}
+
+#logo {
+  width: 100px;
+  height: 60px;
+  float: left;
+}
+
+#mainList li span {
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 1.2em;
+}

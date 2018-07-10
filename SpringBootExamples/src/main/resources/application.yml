@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost;databaseName=springbootdb
+    username: sa
+    password: P@ssw0rd
+    platform: mssql
+  jpa:
+    show-sql: true
